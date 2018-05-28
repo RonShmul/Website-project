@@ -1,0 +1,218 @@
+.menu
+{
+	position: fixed;
+	width: 100%;
+	height: 35px;
+	background: black;
+	z-index: 10;
+}
+
+.main
+{
+	display: inline-block;
+	width: 10%;
+	color:white;
+	text-decoration: none;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+.section
+{
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	text-shadow: 2px 2px DimGrey;
+	z-index: 15;
+}
+
+.onegif
+{
+	opacity: 0.8;
+	margin: 0;
+}
+textarea
+{
+	width:180px;
+	height:80px;
+}
+
+table {
+	color: black;
+	text-shadow: none;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th{
+	font-size: 20px;
+	font-weight: bold;
+}
+td{
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 1.5;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+tr:nth-child(odd){
+	background-color: #F5F5DC;
+}
+h1.section
+{
+	font-size: 100px;
+}
+
+.containerOne
+{
+	position:relative;
+	display: block;
+	background-image: url("eminem3.jpg");	
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin:0;
+}
+
+.info{
+	font-size: 20px;
+	text-shadow: none;
+	line-height: 1.8;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:black;
+	font-weight: normal;
+	opacity: 0.8;
+}
+.gifs
+{
+	background-color: black;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+	z-index: 100;
+}
+.border
+{
+	border-style: dotted;
+	border-color: white;
+	border-width: 3px;
+	border-radius:5px;
+}
+.end
+{
+	display:block;
+	text-align:center;
+	color:grey;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration:none;
+	padding-bottom: 0px;
+	padding-top:50px;
+}
+
+a:hover
+{
+	color: white;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev
+{
+	left:0;
+	border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}

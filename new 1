@@ -1,0 +1,36 @@
+- name and picture (up)
+
+
+
+<div class="container">
+	<!--repeat -->
+	<div class="mySlides">
+		<div class="number"> 1/10</div>
+		<img src="eminem1.jpg" class="images">
+	</div>
+	
+	<div class="mySlides">
+		<div class="number"> 2/10</div>
+		<img src="Eminem2.jpg" class="images">
+	</div>
+</div>
+<script>
+var slideIn=1;
+showSlides(slideIn);
+
+function plusSlides(n)
+{
+	showSlides(slideIn+=n);
+}
+
+function currentSlide(n)
+{
+	showSlides(slideIn =n)
+}
+
+function showSlides(n)
+{
+	var i;
+	var slides = document.getElementByClassName("mySlides");
+	var dots = document.getElementByClassName("mySlides");
+}
